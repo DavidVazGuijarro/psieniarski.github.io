@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                 options: {
                   livereload: true
                 },
-                files: ["*/**"],
+                files: ["*/**", "*"],
                 tasks: ['git:add', 'git:commit']
             },
         },
